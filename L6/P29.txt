@@ -1,0 +1,8 @@
+#Name: Jericho Maniago
+#Email: jericho.maniago49@myhunter.cuny.edu
+#Date: October 20, 2022
+#Unix shell script that prints a greeting from $USER.
+
+#! /bin/bash
+echo "Hello!"
+echo "Greeting from $USER"

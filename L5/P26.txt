@@ -1,0 +1,10 @@
+#Name: Jericho Maniago
+#Email: jericho.maniago49@myhunter.cuny.edu
+#Date: October 11, 2022
+#Logical expressions for a 3-bit incrementer
+
+in1, in2, in3
+
+out1 = in1 and in2
+out2 = (not in1 and in2) or (in1 and not in2)
+out3 = not in

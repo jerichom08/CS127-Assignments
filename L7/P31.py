@@ -11,6 +11,8 @@ internet = pd.read_csv('country_internet.csv')
 internet['Percentage'] = (internet['Internet users']/internet['Population']) * 100
 internet.plot(x = 'Country', y = 'Percentage')
 
-filename = input('Enter output file name: ')
-fig = plt.gcf()
-fig.savefig(filename)
+#filename = input('Enter output file name: ')
+#fig = plt.gcf()
+#fig.savefig(filename)
+
+plt.show()

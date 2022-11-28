@@ -10,7 +10,6 @@ guess = 1
 choice = 0
 
 print('Pick an integer in [0, 100] in your mind.')
-num = 26
 while(choice != 3):
     mid = int((start + end) // 2)
     print('Guess ' + str(guess) +': is it ' + str(mid) + '?')

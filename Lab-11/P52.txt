@@ -1,0 +1,12 @@
+#Name: Jericho Maniago
+#Email: jericho.maniago49@myhunter.cuny.edu
+#Date: November 21, 2022
+#Unix script that organizes a cloned GitHub repository and finds out the number of files ending in .py.
+
+git clone https://github.com/HunterCSci127/CSci127
+cd CSci127
+mkdir projects
+mv averageImage.py projects
+mkdir pictures
+mv *.png pictures
+ls | grep ".py" | wc -l

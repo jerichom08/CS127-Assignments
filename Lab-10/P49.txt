@@ -1,0 +1,12 @@
+#Name: Jericho Maniago
+#Email: jericho.maniago49@myhunter.cuny.edu
+#Date: November 21, 2022
+#This bash script creates a directory with two subdirectories, then creates two more subdirectories under one of those subdirectories.
+
+mkdir cs127
+cd cs127
+mkdir assignments
+mkdir quizzes
+cd quizzes
+mkdir quiz1
+mkdir quiz2

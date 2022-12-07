@@ -9,4 +9,4 @@ mkdir projects
 mv averageImage.py projects
 mkdir pictures
 mv *.png pictures
-ls | grep ".py" | wc -l
+ls -l| grep ".py" | wc -l

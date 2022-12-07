@@ -6,8 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     int rows;
     char c;
     cout << "Enter an int: ";
@@ -16,19 +15,15 @@ int main()
     cin >> c;
 
     int i;
-    for(i = 1; i <= rows; i++)
-    {
+    for(i = 1; i <= rows; i++) {
         int j;
-        for(j = rows - i; j > 0; j--)
-        {
-            if(i != rows)
-            {
+        for(j = rows - i; j > 0; j--) {
+            if(i != rows) {
                 cout << " ";
             }
         }
         int k;
-        for(k = 1; k <= i; k++)
-        {
+        for(k = 1; k <= i; k++) {
             cout << c;
         }
         cout << "\n";

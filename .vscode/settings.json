@@ -1,4 +1,8 @@
 {
     "rpc.appName": "Visual Studio Code",
-    "terminal.integrated.defaultProfile.windows": null
+    "terminal.integrated.defaultProfile.windows": null,
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
